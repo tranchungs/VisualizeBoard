@@ -12,7 +12,7 @@ export async function GET() {
     },
     frame: {
       version: "1",
-      name: "Bonk Bonk",
+      name: "Visualize Dashboard",
       iconUrl: `${APP_URL}/images/icon.png`,
       homeUrl: `${APP_URL}`,
       imageUrl: `${APP_URL}/images/feed.png`,
