@@ -4,12 +4,12 @@ import type { Metadata } from "next";
 
 const frame = {
   version: "next",
-  imageUrl: `${APP_URL}/images/bonk1.png`,
+  imageUrl: `${APP_URL}/images/icon.png`,
   button: {
-    title: "Break Monad Game",
+    title: "Visualize Dashboard",
     action: {
       type: "launch_frame",
-      name: "Break Monad Game",
+      name: "Visualize Dashboard",
       url: APP_URL,
       splashImageUrl: `${APP_URL}/images/splash.png`,
       splashBackgroundColor: "#f7f7f7",
@@ -19,10 +19,10 @@ const frame = {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Break Monad",
+    title: "Visualize Dashboard",
     openGraph: {
-      title: "Tap to break monad game and claim reward",
-      description: "Try break Monad",
+      title: "Visualize Dashboard",
+      description: "Visualize Dashboard",
     },
     other: {
       "fc:frame": JSON.stringify(frame),

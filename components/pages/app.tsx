@@ -3,7 +3,6 @@
 import { Demo } from "@/components/Home";
 import { useFrame } from "@/components/farcaster-provider";
 import { SafeAreaContainer } from "@/components/safe-area-container";
-import { PlayGame } from "../Home/Dashboard";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
